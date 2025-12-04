@@ -2,7 +2,8 @@ import React from "react";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import inprogress from "@/public/inprogress.png";
-import personalportfolio from "@/public/personalportfolio.png"
+import personalportfolio from "@/public/personalportfolio.png";
+import ReactMovieApp from "@/public/ReactMovieApp.png"
 
 
 export const links = [
@@ -42,7 +43,7 @@ export const experiencesData = [
     date: "2016 - 2020",
   },
   {
-    title: "VLDP",
+    title: "Verizon Leadership Development Program",
     location: "Basking Ridge, NJ",
     description:
       "I completed three rotations on the customer service side of Verizon, gaining experience across POS, customer service centers, and IVR systems. During this time, I also began learning React to strengthen my technical skill set and transition into software development.",
@@ -53,7 +54,7 @@ export const experiencesData = [
     title: "Engr III Cslt-App Dev",
     location: "Basking Ridge, NJ",
     description:
-      "Worked with React (JSX) and Redux to integrate new systems into the ACSS customer service application. Gained experience in modernizing the platform and was exposed to the integration of Micro Frontends (MFEs).",
+      "Worked with React (JSX) and Redux to integrate new systems into the ACSS customer service application used by over 30,000 representatives daily. Gained hands-on experience modernizing the platform and contributing to the integration of Micro Frontends (MFEs).",
     icon: React.createElement(FaReact),
     date: "2023 - present",
   },
@@ -66,6 +67,13 @@ export const projectsData = [
       "Personal Portfolio to know about me 😊",
     tags: ["React", "Next.js", "TypeScript", "Tailwind", "Git", "Framer-motion", "React Email", "Resend"],
     imageUrl: personalportfolio,
+  },
+  {
+    title: "React Movie App - Practice",
+    description:
+      "Practice project to render movies by fetching API endpoints and render, using react router and useContext",
+    tags: ["React", "JavaScript", "CSS", "HTML", "Vite", "React Router"],
+    imageUrl: ReactMovieApp,
   },
   {
     title: "Working in Progress",

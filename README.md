@@ -21,3 +21,6 @@
 ## To Run
 1. npm install
 2. npm run dev
+
+## Portfolio Host
+- https://herman-wan-personal-portfolio.vercel.app/

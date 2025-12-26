@@ -2,6 +2,7 @@ import React from "react";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import inprogress from "@/public/inprogress.png";
+import Ecommerce from "@/public/Ecommerce.png"
 import personalportfolio from "@/public/personalportfolio.png";
 import ReactMovieApp from "@/public/ReactMovieApp.png"
 
@@ -56,7 +57,7 @@ export const experiencesData = [
     description:
       "Worked with React (JSX) and Redux to integrate new systems into the ACSS customer service application used by over 30,000 representatives daily. Gained hands-on experience modernizing the platform and contributing to the integration of Micro Frontends (MFEs).",
     icon: React.createElement(FaReact),
-    date: "2023 - present",
+    date: "2023 - 2025",
   },
 ] as const;
 
@@ -76,11 +77,11 @@ export const projectsData = [
     imageUrl: ReactMovieApp,
   },
   {
-    title: "Working in Progress",
+    title: "Ecommerce Application - Practice",
     description:
-      "",
-    tags: [],
-    imageUrl: inprogress,
+      "Practice project for a Ecommerce webpage, experiementing checkout using Stripe, and exploring Zustand for state management",
+    tags: ["React", "Next.js", "Typescript","Tailwind", "Git", "Stripe" , "Zustand"],
+    imageUrl: Ecommerce,
   },
 ] as const;
 
@@ -98,4 +99,7 @@ export const skillsData = [
   "Redux",
   "GraphQL (familiar)",
   "Framer Motion (learning)",
+  "CI/CD",
+  "Jira",
+  "Figma"
 ] as const;
